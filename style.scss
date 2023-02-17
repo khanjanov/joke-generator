@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      border-radius: 5px;
+      border: 1px solid rgb(45, 170, 170);
+      background-color: rgb(45, 170, 170);
+      color: rgb(169, 248, 169);
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
